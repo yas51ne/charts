@@ -49,7 +49,7 @@ ingress:
   #  nginx.ingress.kubernetes.io/secure-backends: "true" # optional
     ingress.kubernetes.io/rewrite-target: /
   hosts:
-    - host: kubeapps.gcp.omniops.sa
+    - host: pacman.gcp.omniops.sa
       paths:
         path: /
 
