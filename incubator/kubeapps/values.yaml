@@ -1780,6 +1780,7 @@ postgresql:
   primary:
     persistence:
       enabled: false
+    resourcesPreset: "xlarge"
   ## @param postgresql.architecture PostgreSQL architecture (`standalone` or `replication`)
   ##
   architecture: standalone
